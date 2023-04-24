@@ -1,13 +1,13 @@
 function changeStuffOnMyWebsite() {
   document.body.style.color = "red"
-  document.body.style.fontSize = 100 + "px"
+  document.body.style.fontSize = 50 + "px"
 
   // Kannst du die Schriftgrösse für h1 und p separat ändern?
   // Tipp: nutze document.querySelector()
   // Experimentiere mit weiteren HTML-Elementen und CSS-Eigenschaften
 }
 
-setTimeout(changeStuffOnMyWebsite, 1000)
+setTimeout(changeStuffOnMyWebsite, 2000)
 
 /*
  setTimeout löst eine Callback-Funktion nach einer bestimmten Zeitspanne aus.
